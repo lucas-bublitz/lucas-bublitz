@@ -13,6 +13,7 @@ body{
     font-style: normal;
 }
 
+
 .title{
     font-size: 100px;
     text-align: center;
@@ -20,11 +21,29 @@ body{
     margin-bottom: 0.5em;
 }
 
-.title img{
+#statue{
     display: inline;
     position: relative;
     top: 20px;
     height: 110px;
+}
+
+#vine{
+    display: inline-block;
+    width: 500px;
+}
+.title nav{
+    font-size: 20px;
+}
+
+.title_main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+    border: 2px solid gold;
+    padding: 50px;
 }
 
 .text_box{
