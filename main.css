@@ -13,6 +13,7 @@ body{
     font-weight: 400;
     font-style: normal;
     text-align: center;
+    justify-content: center;
 }
 
 
@@ -105,9 +106,49 @@ body{
     right: 0%;
 }
 
-.text_box ul{
+.lista{
    text-align: left;
 }
+
+
+
+.thumbnail{
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.thumbnail div{
+    display: block;
+    margin: 20px;
+    width: 100px;
+    text-align: center !important;
+    color: gold;
+    text-decoration: none;
+}   
+
+.thumbnail img{
+    width: 100%;
+    outline: 2px gold solid;
+    margin-bottom: 8px;
+    outline-offset: 5px;
+}
+
+.thumbnail a{
+    color: gold !important;
+    text-decoration: none;
+}
+
+.thumbnail a:hover{
+    color: red !important;
+}
+
+.thumbnail a:hover img{
+    outline-color: red !important;
+}
+
 
 .aqui{
     background-image: url(nav.jpeg);
@@ -118,7 +159,6 @@ body{
     outline-offset: -5px;
 }
 
-
 @media all and (max-width:920px){
     .title_main{
        position: relative;
@@ -126,4 +166,4 @@ body{
        left:0;
        transform: none;
     }
-   }
+}
