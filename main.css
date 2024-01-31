@@ -107,7 +107,11 @@ body{
 }
 
 .lista{
-   text-align: left;
+    text-align: left;
+    margin-left: 20px;
+}
+.lista li::marker{
+    color: rgba(255, 217, 0, 0.555);
 }
 
 
