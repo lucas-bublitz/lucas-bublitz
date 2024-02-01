@@ -82,7 +82,7 @@ body{
     background: rgba(0, 0, 0, 0.9);
     border-image-slice: 198 183 230 163;
     border-image-width: 100px;
-    border-image-outset: 80px;
+    border-image-outset: 80px 80px 45px 80px;
     border-image-repeat: stretch stretch;
     border-image-source: url(roman_column.png);
     position: relative;
@@ -99,11 +99,7 @@ body{
     transform: translate(-50%, 0%);
 }
 .text_box h3{
-    display: block;
     text-align: right;
-    position: relative;
-    bottom: -30px;
-    right: 0%;
 }
 
 .lista{
