@@ -13,7 +13,9 @@ body{
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    justify-content: center;
+    justify-content:center;
+    flex: content;
+    
 }
 
 
@@ -101,6 +103,19 @@ body{
 .text_box h3{
     text-align: right;
 }
+.text_box p{
+    text-indent: 50px;
+}
+
+.text_box p > a{
+    color: gold !important;
+    text-decoration: underline dotted gold;
+}
+.text_box p > a:hover{
+    color: black !important;
+    background-color: gold;
+    text-decoration: none;
+}
 
 .lista{
     text-align: left;
@@ -157,11 +172,55 @@ body{
     outline-offset: -5px;
 }
 
+
+.table_itens{
+    margin: 20px;
+    text-align: left;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.table_itens th{
+
+    outline-offset: -5px;
+    padding: 10px;
+    vertical-align: middle;
+}
+.table_itens tr:hover{
+    color: black;
+    background-color: gold;
+}
+.table_itens tr:hover td{
+    
+}
+.table_itens td{
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.table_itens tr:last-child td:first-child{
+    text-align: right !important;
+}
+
+
+.real_statue{
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
 @media all and (max-width:920px){
     .title_main{
        position: relative;
        top:0;
        left:0;
        transform: none;
+    }
+}
+@media all and (max-width:620px){
+    .real_statue{
+        width: 100%;
+        float: left;
+        margin-right: 20px;
     }
 }
